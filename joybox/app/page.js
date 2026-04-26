@@ -1,5 +1,5 @@
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  `Hi Joybox 👋
+  `Hi Joybox
 
 I'd like to plan a birthday event.
 
@@ -9,7 +9,7 @@ Location (home / venue):
 Budget range:
 Theme / style:
 
-Looking forward to your recommendation 👍`
+Looking forward to your recommendation`
 );
 
 const WHATSAPP_LINK = `https://wa.me/6581234567?text=${WHATSAPP_MESSAGE}`;

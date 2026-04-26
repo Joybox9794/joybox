@@ -1,5 +1,6 @@
 const WHATSAPP_LINK =
-  "https://wa.me/6581234567?text=Hi%20Joybox%2C%20I%20want%20to%20plan%20an%20event.%20Date%3A%20%20Pax%3A%20%20Budget%3A%20%20Theme%3A";
+  const WHATSAPP_LINK =
+  "https://wa.me/6581234567?text=Hi%20Joybox%20👋%0A%0AI’d%20like%20to%20plan%20a%20birthday%20event.%0A%0ADate%3A%0APax%3A%0ALocation%20(home%20%2F%20venue)%3A%0ABudget%20range%20(e.g.%20$500-$800)%3A%0ATheme%20%2F%20style%3A%0A%0ALooking%20forward%20to%20your%20recommendation%20👍";
 
 export default function Home() {
   return (

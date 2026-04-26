@@ -15,7 +15,7 @@ export const metadata = {
   title: "JoyBox SG",
   description: "Stress-free birthday event planning in Singapore",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/Joybox Logo.ico",
     },
 };
 

@@ -1,6 +1,18 @@
-const WHATSAPP_LINK =
-  const WHATSAPP_LINK =
-  "https://wa.me/6581234567?text=Hi%20Joybox%20👋%0A%0AI’d%20like%20to%20plan%20a%20birthday%20event.%0A%0ADate%3A%0APax%3A%0ALocation%20(home%20%2F%20venue)%3A%0ABudget%20range%20(e.g.%20$500-$800)%3A%0ATheme%20%2F%20style%3A%0A%0ALooking%20forward%20to%20your%20recommendation%20👍";
+const WHATSAPP_MESSAGE = encodeURIComponent(
+  `Hi Joybox 👋
+
+I'd like to plan a birthday event.
+
+Date:
+Pax:
+Location (home / venue):
+Budget range:
+Theme / style:
+
+Looking forward to your recommendation 👍`
+);
+
+const WHATSAPP_LINK = `https://wa.me/6581234567?text=${WHATSAPP_MESSAGE}`;
 
 export default function Home() {
   return (

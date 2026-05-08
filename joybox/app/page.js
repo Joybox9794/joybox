@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "65YOURNUMBER"; // Replace with your real Joybox WhatsApp number
+const WHATSAPP_NUMBER = "6512345678"; // Replace with your real Joybox WhatsApp number
 
 const createWhatsAppLink = (selectedPackage = "") => {
   const packageLine = selectedPackage
